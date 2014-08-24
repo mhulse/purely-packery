@@ -6,7 +6,7 @@
 	font-weight: normal;
 	font-style: normal;
 	text-transform: none;
-	letter-spacing: 0;
+	letter-spacing: -.05em;
 	margin: 0 0 25px;
 	padding: 0;
 	-webkit-touch-callout: none;
@@ -24,10 +24,10 @@
 			text-decoration: none;
 		}
 		
-		&:visited:hover,
+		.no-touch &:visited:hover,
 		&:focus,
-		&:focus:hover,
-		&:hover,
+		.no-touch &:focus:hover,
+		.no-touch &:hover,
 		&:active { color: $bling; }
 		
 		&:active,

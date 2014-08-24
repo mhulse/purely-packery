@@ -1469,7 +1469,7 @@ this the same font stack that Normalize.css sets for the `body`.
   visibility: hidden;
 }
 
-.nix, .nix:focus, .nix:hover, .nix:active {
+.nix, .nix:focus, .no-touch .nix:hover, .nix:active {
   color: transparent;
   text-decoration: none;
   outline: 0;
@@ -1514,7 +1514,7 @@ body {
   font-family: Arial, sans-serif;
   color: #666;
   background: #222;
-  padding: 25px;
+  padding: 20px;
   min-height: 100%;
   text-rendering: optimizeLegibility;
 }
@@ -1532,7 +1532,7 @@ a, a:visited {
   color: #bbb;
   text-decoration: none;
 }
-a:visited:hover, a:focus, a:focus:hover, a:hover, a:active {
+.no-touch a:visited:hover, a:focus, .no-touch a:focus:hover, .no-touch a:hover, a:active {
   color: #f60;
 }
 
@@ -1741,7 +1741,7 @@ nav[role="navigation"] .harmonia {
   font-weight: normal;
   font-style: normal;
   text-transform: none;
-  letter-spacing: 0;
+  letter-spacing: -.05em;
   margin: 0 0 25px;
   padding: 0;
   -webkit-touch-callout: none;
@@ -1756,7 +1756,7 @@ nav[role="navigation"] .harmonia {
   color: #9ea301;
   text-decoration: none;
 }
-#flag a:visited:hover, #flag a:focus, #flag a:focus:hover, #flag a:hover, #flag a:active {
+.no-touch #flag a:visited:hover, #flag a:focus, .no-touch #flag a:focus:hover, .no-touch #flag a:hover, #flag a:active {
   color: #ffd100;
 }
 #flag a:active, #flag a:focus {

@@ -30,12 +30,11 @@
 
 .ghost { visibility: hidden; }
 
-// https://github.com/mhulse/picard/issues/201
 .nix {
 	
 	&,
 	&:focus,
-	&:hover,
+	.no-touch &:hover,
 	&:active {
 		color: rgba($raven, 0);
 		text-decoration: none;

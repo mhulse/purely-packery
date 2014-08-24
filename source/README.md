@@ -3,7 +3,10 @@
 **Note:** If [Grunt](http://gruntjs.com/) isn’t installed globally, then roll with the `$ npm ...` commands.
 
 ```bash
-# Install dependencies:
+# First:
+$ cd purely-packery/source/
+
+# Next, install:
 $ npm install
 # ... or update dependencies:
 $ npm update
