@@ -1,6 +1,6 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-**Note:** If Gruntjs isn’t installed globally, then run the `npm` commands.
+**Note:** If [Grunt](http://gruntjs.com/) isn’t installed globally, then roll with the `$ npm ...` commands.
 
 ```bash
 # Install dependencies:
