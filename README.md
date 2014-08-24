@@ -1,6 +1,6 @@
 # Purely Packery
 
-**Just a test of Pure + Packery using Grunt.**
+**Just a test of [Pure](http://purecss.io/) + [Packery](http://packery.metafizzy.co/) using Grunt.**
 
 ## Demo
 
