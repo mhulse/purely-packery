@@ -12,14 +12,15 @@
     "name": "Foo Bar",
     "url": "http://foo.com"
   },
-  "production": "http://mhulse.github.io/purely-packery/prod/",
+  "//": "The following FQDN is the endpoint for your assets (no trailing slash):",
+  "production": "http://mhulse.github.io/purely-packery/prod",
   "licenses": [
     {
       "type": "Apache License, Version 2.0",
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
-  "dependencies": {
+  "devDependencies": {
     "grunt": "~0",
     "grunt-cli": "~0",
     "grunt-bower-task": "~0",
